@@ -26,6 +26,9 @@ jobs:
       - name: Test build website
         run: npm run build --if-present
 
+      - name: Set up CNAME
+        run: echo 'frontenddiary.dev' > CNAME
+
       # Popular action to deploy to GitHub Pages:
       # Docs: https://github.com/peaceiris/actions-gh-pages#%EF%B8%8F-docusaurus
       - name: Deploy to GitHub Pages
