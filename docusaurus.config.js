@@ -24,6 +24,7 @@ const config = {
   organizationName: 'lcssptz', // Usually your GitHub org/user name.
   projectName: 'frontend-diary', // Usually your repo name.
   deploymentBranch: 'gh-pages',
+  trailingSlash: false,
 
   onBrokenLinks: 'throw',
   onBrokenMarkdownLinks: 'warn',
