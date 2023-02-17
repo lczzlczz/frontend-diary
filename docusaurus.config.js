@@ -51,10 +51,12 @@ const config = {
         },
         blog: {
           showReadingTime: true,
+          routeBasePath: '/',
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
+
         },
         theme: {
           customCss: require.resolve('./src/css/custom.css'),
@@ -69,21 +71,21 @@ const config = {
       // Replace with your project's social card
       image: 'img/docusaurus-social-card.jpg',
       navbar: {
-        title: 'My Site',
+        title: siteName,
         logo: {
-          alt: 'My Site Logo',
+          alt: siteName,
           src: 'img/logo.svg',
         },
         items: [
+          { to: '/', label: 'Diary', position: 'left' },
           {
             type: 'doc',
-            docId: 'intro',
+            docId: '/category/algorithms',
             position: 'left',
-            label: 'Tutorial',
+            label: 'Docs',
           },
-          {to: '/blog', label: 'Blog', position: 'left'},
           {
-            href: 'https://github.com/facebook/docusaurus',
+            href: 'https://github.com/lcssptz/frontend-diary',
             label: 'GitHub',
             position: 'right',
           },
@@ -96,8 +98,12 @@ const config = {
             title: 'Docs',
             items: [
               {
-                label: 'Tutorial',
-                to: '/docs/intro',
+                label: 'Algorithms',
+                to: '/docs/category/algorithms',
+              },
+              {
+                label: 'Tutorials',
+                to: '/docs/category/tutorials',
               },
             ],
           },
@@ -105,16 +111,8 @@ const config = {
             title: 'Community',
             items: [
               {
-                label: 'Stack Overflow',
-                href: 'https://stackoverflow.com/questions/tagged/docusaurus',
-              },
-              {
-                label: 'Discord',
-                href: 'https://discordapp.com/invite/docusaurus',
-              },
-              {
-                label: 'Twitter',
-                href: 'https://twitter.com/docusaurus',
+                label: 'Dev',
+                href: 'https://dev.to/lcssptz',
               },
             ],
           },
@@ -122,12 +120,12 @@ const config = {
             title: 'More',
             items: [
               {
-                label: 'Blog',
-                to: '/blog',
+                label: 'Dairy',
+                to: '/',
               },
               {
                 label: 'GitHub',
-                href: 'https://github.com/facebook/docusaurus',
+                href: 'https://github.com/lcssptz/frontend-diary',
               },
             ],
           },
