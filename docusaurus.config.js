@@ -50,8 +50,8 @@ const config = {
             'https://github.com/facebook/docusaurus/tree/main/packages/create-docusaurus/templates/shared/',
         },
         blog: {
-          showReadingTime: true,
           routeBasePath: '/',
+          showReadingTime: true,
           // Please change this to your repo.
           // Remove this to remove the "edit this page" links.
           editUrl:
@@ -77,7 +77,6 @@ const config = {
           src: 'img/logo.svg',
         },
         items: [
-          { to: '/', label: 'Diary', position: 'left' },
           {
             type: 'doc',
             docId: '/category/algorithms',
