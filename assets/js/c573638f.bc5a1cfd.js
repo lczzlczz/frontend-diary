@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_dairy=self.webpackChunkfrontend_dairy||[]).push([[964],{8866:a=>{a.exports=JSON.parse('[{"label":"diary","permalink":"/tags/diary","count":1},{"label":"not good","permalink":"/tags/not-good","count":1}]')}}]);

@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_dairy=self.webpackChunkfrontend_dairy||[]).push([[602],{177:e=>{e.exports=JSON.parse('{"permalink":"/tags/not-good","page":1,"postsPerPage":10,"totalPages":1,"totalCount":1,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);
