@@ -1,0 +1,1 @@
+"use strict";(self.webpackChunkfrontend_dairy=self.webpackChunkfrontend_dairy||[]).push([[526],{2691:e=>{e.exports=JSON.parse('{"permalink":"/tags/diary","page":1,"postsPerPage":10,"totalPages":1,"totalCount":2,"blogDescription":"Blog","blogTitle":"Blog"}')}}]);

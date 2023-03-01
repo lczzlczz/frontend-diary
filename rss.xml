@@ -4,10 +4,19 @@
         <title>Frontend Dairy Blog</title>
         <link>https://frontenddairy.com/</link>
         <description>Frontend Dairy Blog</description>
-        <lastBuildDate>Tue, 28 Feb 2023 00:00:00 GMT</lastBuildDate>
+        <lastBuildDate>Wed, 01 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
         <generator>https://github.com/jpmonette/feed</generator>
         <language>en</language>
+        <item>
+            <title><![CDATA[Feeling better]]></title>
+            <link>https://frontenddairy.com/feeling-better</link>
+            <guid>https://frontenddairy.com/feeling-better</guid>
+            <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
+            <description><![CDATA[It’s the first day of March, I am feeling better and preparing for interviews currently.]]></description>
+            <content:encoded><![CDATA[<p>It’s the first day of March, I am feeling better and preparing for interviews currently.</p><p>The DL is by EOM.</p><p>Hope everything goes well.</p>]]></content:encoded>
+            <category>diary</category>
+        </item>
         <item>
             <title><![CDATA[Today]]></title>
             <link>https://frontenddairy.com/today</link>
