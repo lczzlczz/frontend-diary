@@ -108,6 +108,14 @@ const config = {
                 label: 'Dev',
                 href: 'https://dev.to/lcssptz',
               },
+              {
+                label: 'LeetCodeCN',
+                href: 'https://leetcode.cn/lcssptz',
+              },
+              {
+                label: 'LeetCode',
+                href: 'https://leetcode.com/lcssptz',
+              },
             ],
           },
           {
