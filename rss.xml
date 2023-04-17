@@ -2,7 +2,7 @@
 <rss version="2.0" xmlns:dc="http://purl.org/dc/elements/1.1/" xmlns:content="http://purl.org/rss/1.0/modules/content/">
     <channel>
         <title>Frontend Dairy Blog</title>
-        <link>https://frontenddairy.com/</link>
+        <link>https://frontenddiary.com/</link>
         <description>Frontend Dairy Blog</description>
         <lastBuildDate>Wed, 01 Mar 2023 00:00:00 GMT</lastBuildDate>
         <docs>https://validator.w3.org/feed/docs/rss2.html</docs>
@@ -10,8 +10,8 @@
         <language>en</language>
         <item>
             <title><![CDATA[Feeling better]]></title>
-            <link>https://frontenddairy.com/feeling-better</link>
-            <guid>https://frontenddairy.com/feeling-better</guid>
+            <link>https://frontenddiary.com/feeling-better</link>
+            <guid>https://frontenddiary.com/feeling-better</guid>
             <pubDate>Wed, 01 Mar 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[It’s the first day of March, I am feeling better and preparing for interviews currently.]]></description>
             <content:encoded><![CDATA[<p>It’s the first day of March, I am feeling better and preparing for interviews currently.</p><p>The DL is by EOM.</p><p>Hope everything goes well.</p>]]></content:encoded>
@@ -19,8 +19,8 @@
         </item>
         <item>
             <title><![CDATA[Today]]></title>
-            <link>https://frontenddairy.com/today</link>
-            <guid>https://frontenddairy.com/today</guid>
+            <link>https://frontenddiary.com/today</link>
+            <guid>https://frontenddiary.com/today</guid>
             <pubDate>Tue, 28 Feb 2023 00:00:00 GMT</pubDate>
             <description><![CDATA[I don't feel comfort today, but I still have to write a post.]]></description>
             <content:encoded><![CDATA[<p>I don't feel comfort today, but I still have to write a post.</p>]]></content:encoded>

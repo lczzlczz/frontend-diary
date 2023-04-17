@@ -1,16 +1,16 @@
 <?xml version="1.0" encoding="utf-8"?>
 <feed xmlns="http://www.w3.org/2005/Atom">
-    <id>https://frontenddairy.com/</id>
+    <id>https://frontenddiary.com/</id>
     <title>Frontend Dairy Blog</title>
     <updated>2023-03-01T00:00:00.000Z</updated>
     <generator>https://github.com/jpmonette/feed</generator>
-    <link rel="alternate" href="https://frontenddairy.com/"/>
+    <link rel="alternate" href="https://frontenddiary.com/"/>
     <subtitle>Frontend Dairy Blog</subtitle>
-    <icon>https://frontenddairy.com/img/favicon.ico</icon>
+    <icon>https://frontenddiary.com/img/favicon.ico</icon>
     <entry>
         <title type="html"><![CDATA[Feeling better]]></title>
-        <id>https://frontenddairy.com/feeling-better</id>
-        <link href="https://frontenddairy.com/feeling-better"/>
+        <id>https://frontenddiary.com/feeling-better</id>
+        <link href="https://frontenddiary.com/feeling-better"/>
         <updated>2023-03-01T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[It’s the first day of March, I am feeling better and preparing for interviews currently.]]></summary>
         <content type="html"><![CDATA[<p>It’s the first day of March, I am feeling better and preparing for interviews currently.</p><p>The DL is by EOM.</p><p>Hope everything goes well.</p>]]></content>
@@ -22,8 +22,8 @@
     </entry>
     <entry>
         <title type="html"><![CDATA[Today]]></title>
-        <id>https://frontenddairy.com/today</id>
-        <link href="https://frontenddairy.com/today"/>
+        <id>https://frontenddiary.com/today</id>
+        <link href="https://frontenddiary.com/today"/>
         <updated>2023-02-28T00:00:00.000Z</updated>
         <summary type="html"><![CDATA[I don't feel comfort today, but I still have to write a post.]]></summary>
         <content type="html"><![CDATA[<p>I don't feel comfort today, but I still have to write a post.</p>]]></content>
