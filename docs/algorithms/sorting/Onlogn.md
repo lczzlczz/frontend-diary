@@ -25,6 +25,9 @@ sidebar_label: O(nlogn)
 
 ![Merge Sort](static/Merge-sort-example-300px.gif)
 
+[Visual Sorting](https://visualgo.net/en/sorting)
+
+
 ```js
 const mergeSort = (arr) => {
   if (arr.length <= 1) return arr;
@@ -57,6 +60,8 @@ export default mergeSort;
 ### Quick Sort
 
 ![Quick Sort](static/Quicksort-example.gif)
+
+[Visual Sorting](https://visualgo.net/en/sorting)  
 
 ```js
 const quickSort = (arr, n) => {
