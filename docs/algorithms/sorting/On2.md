@@ -103,9 +103,7 @@ const selectionSort = (arr, n) => {
         minKey = j;
       }
     }
-    if (minKey !== i) {
-      [arr[i], arr[minKey]] = [arr[minKey], arr[i]];
-    }
+    [arr[i], arr[minKey]] = [arr[minKey], arr[i]];
   }
 }
 ```
