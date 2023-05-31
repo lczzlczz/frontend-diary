@@ -1,11 +1,11 @@
 ---
-slug: '/algorithms/sorting/On2'
-id: 'Sorting O(n^2) Algorithms'
-title: 'Sorting O(n^2) Algorithms'
-sidebar_label: 'Sorting O(n^2) Algorithms'
+id: alg-sorting-on2
+slug: /algorithms/sorting/on2
+title: O(n^2) Sorting Algorithms
+sidebar_label: O(n^2)
 ---
 
-# Sorting O(n^2) Algorithms
+# O(n^2) Sorting Algorithms
 
 ## Introduction
 
