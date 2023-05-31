@@ -27,7 +27,7 @@ sidebar_label: O(n^2)
 
 Bubble sort is a simple sorting algorithm that repeatedly steps through the list, compares adjacent elements and swaps them if they are in the wrong order. The pass through the list is repeated until the list is sorted.
 
-![Bubble Sort](https://upload.wikimedia.org/wikipedia/commons/c/c8/Bubble-sort-example-300px.gif)
+![Bubble Sort](static/Bubble-sort-example-300px.gif)
 
 ```js title="Bubble Sort" showLineNumbers
 /**
@@ -56,7 +56,7 @@ const bubbleSort = (arr, n) => {
 
 Insertion Sort is a simple sorting algorithm that iterates through an array and at each iteration it removes one element from the array, finds the location it belongs to in the sorted list and inserts it there, repeating until no elements remain in the unsorted list. It is an in-place, stable sorting algorithm that is inefficient on large input arrays but works well for data sets that are almost sorted. It is more efficient in practice compared to other quadratic sorting algorithms like bubble sort and selection sort.
 
-![Insertion Sort](https://upload.wikimedia.org/wikipedia/commons/0/0f/Insertion-sort-example-300px.gif)
+![Insertion Sort](static/Insertion-sort-example-300px.gif)
 
 ```js title="Insertion Sort" showLineNumbers
 /**
@@ -84,7 +84,7 @@ const insertionSort = (arr, n) => {
 
 Selection sort is an in-place comparison sorting algorithm that divides the input list into two parts: a sorted sublist of items which is built up from left to right at the front (left) of the list and a sublist of the remaining unsorted items that occupy the rest of the list. Initially, the sorted sublist is empty and the unsorted sublist is the entire input list. The algorithm proceeds by finding the smallest element in the unsorted sublist, exchanging (swapping) it with the leftmost unsorted element (putting it in sorted order), and moving the sublist boundaries one element to the right.
 
-![Selection Sort](https://upload.wikimedia.org/wikipedia/commons/9/94/Selection-Sort-Animation.gif)
+![Selection Sort](static/Selection-Sort-Animation.gif)
 
 ```js title="Selection Sort" showLineNumbers
 /**
