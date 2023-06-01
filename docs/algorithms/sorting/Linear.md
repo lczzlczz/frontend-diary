@@ -28,6 +28,8 @@ sidebar_position: 3
 
 ### Bucket Sort
 
+Bucket Sort is a sorting algorithm that works by distributing the elements of an array into a number of buckets. Each bucket is then sorted individually, either using a different sorting algorithm, or by recursively applying the bucket sorting algorithm. It is a distribution sort, and is a cousin of radix sort in the most to least significant digit flavour. Bucket sort is a generalization of pigeonhole sort. Bucket sort can be implemented with comparisons and therefore can also be considered a comparison sort algorithm. The computational complexity estimates involve the number of buckets.
+
 ![Bucket Sort](static/Bucket_sort.svg.png)
 
 ```js title="Bucket Sort" showLineNumbers
@@ -89,6 +91,10 @@ export default bucketSort;
 
 ### Counting Sort
 
+Counting
+
+Counting Sort is a sorting algorithm that sorts the elements of an array by counting the number of occurrences of each unique element in the array. The count is stored in an auxiliary array and the sorting is done by mapping the count as an index of the auxiliary array.
+
 ```js title="Counting Sort" showLineNumbers
 /**
  * Counting Sort Implementation
@@ -148,7 +154,7 @@ export default countingSort;
 
 ### Radix Sort
 
-![Radix Sort](https://upload.wikimedia.org/wikipedia/commons/thumb/3/3d/Radix_sort_1.svg/300px-Radix_sort_1.svg.png)
+Radix Sort is a sorting algorithm that sorts the elements by first grouping the individual digits of the same place value. Then, sort the elements according to their increasing/decreasing order. 
 
 ```js title="Radix Sort" showLineNumbers
 /**
@@ -222,8 +228,6 @@ const radixSort = (items, RADIX) => {
   return items;
 }
 ```
-
-
 
 ## Conclusion
 
