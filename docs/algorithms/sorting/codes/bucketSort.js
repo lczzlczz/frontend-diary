@@ -9,11 +9,13 @@
  * 
  * @see https://en.wikipedia.org/wiki/Bucket_sort
  * 
- * @ Time Complexity of Solution:
- * Best Case O(n); Average Case O(n); Worst Case O(n).
+ * Time Complexity of Solution:
+ * Best Case O(n+k); Average Case O(n+k); Worst Case O(n^2),
  * 
  * Space Complexity of Solution:
  * Worst Case O(n).
+
+ * where n is the size of the input array and k means the values range from 0
  * 
  * Stability of Solution: Yes
  * In-Place of Solution: No

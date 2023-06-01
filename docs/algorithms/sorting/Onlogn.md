@@ -3,6 +3,7 @@ id: alg-sorting-onlogn
 slug: /algorithms/sorting/onlogn
 title: O(nlogn) Sorting Algorithms
 sidebar_label: O(nlogn)
+sidebar_position: 2
 ---
 
 # O(nlogn) Sorting Algorithms
