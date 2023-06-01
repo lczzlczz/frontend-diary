@@ -69,16 +69,13 @@ const bucketSort = (list, size) => {
   const max = Math.max(...list);
 
   const bucketCount = Math.floor((max - min) / size) + 1;
-
   const buckets = new Array(bucketCount).fill().map(() => []);
-
-  list.forEach(num => {
-    const key = Math.floor((num - min) / size);
-    buckets[key].push(num);
-  })
+  for (let i = 0; i < list.length; i++) {
+    const key = Math.floor((list[i] - min) / size);
+    buckets[key].push(list[i]);
+  }
 
   let sortedList = [];
-
   for (let i = 0; i < buckets.length; i++) {
     const sortedBucket = buckets[i].sort((a, b) => a - b);
     sortedList = sortedList.concat(sortedBucket);
@@ -178,6 +175,8 @@ export default countingSort;
  * Stability of Solution: Yes
  * In-Place of Solution: No
  * 
+ * @param {number []} items the array of numbers to be sorted.
+ * @return {number []} the sorted array in non-decreasing order.
  * 
  */
 

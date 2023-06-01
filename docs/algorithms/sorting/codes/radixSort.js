@@ -22,7 +22,8 @@
  * Stability of Solution: Yes
  * In-Place of Solution: No
  * 
- * 
+ * @param {number []} items the array of numbers to be sorted.
+ * @return {number []} the sorted array in non-decreasing order.
  */
 
 const radixSort = (items, RADIX) => {
