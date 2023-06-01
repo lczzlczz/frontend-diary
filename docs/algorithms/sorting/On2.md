@@ -3,6 +3,7 @@ id: alg-sorting-on2
 slug: /algorithms/sorting/on2
 title: O(n^2) Sorting Algorithms
 sidebar_label: O(n^2)
+sidebar_position: 1
 ---
 
 # O(n^2) Sorting Algorithms
